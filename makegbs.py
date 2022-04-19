@@ -2,7 +2,7 @@
 
 # open files
 HdrFile = open("GBSHeader.bin", "rb")   # GBS header
-ROMFile = open("DevSound.gbc", "rb")     # demo ROM
+ROMFile = open("DevSound.gb", "rb")     # demo ROM
 OutFile = open("DevSound.gbs", "wb")    # output file
 
 # copy header
